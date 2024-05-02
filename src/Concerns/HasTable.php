@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Concerns;
+namespace Mgandomi\LaravelHttpLogger\Concerns;
 
 trait HasTable
 {

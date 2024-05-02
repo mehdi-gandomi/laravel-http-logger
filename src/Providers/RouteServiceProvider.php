@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Providers;
+namespace Mgandomi\LaravelHttpLogger\Providers;
 
-use DragonCode\LaravelHttpLogger\Http\Middleware\HttpLogMiddleware;
+use Mgandomi\LaravelHttpLogger\Http\Middleware\HttpLogMiddleware;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

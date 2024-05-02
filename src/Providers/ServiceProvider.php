@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Providers;
+namespace Mgandomi\LaravelHttpLogger\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

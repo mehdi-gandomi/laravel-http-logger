@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests\Concerns;
 
-use DragonCode\LaravelHttpLogger\Models\HttpLog;
+use Mgandomi\LaravelHttpLogger\Models\HttpLog;
 
 trait HasDatabase
 {

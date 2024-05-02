@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Models;
+namespace Mgandomi\LaravelHttpLogger\Models;
 
-use DragonCode\LaravelHttpLogger\Casts\Hide;
-use DragonCode\LaravelHttpLogger\Casts\HideHeader;
-use DragonCode\LaravelHttpLogger\Casts\Method;
-use DragonCode\LaravelHttpLogger\Concerns\HasTable;
-use DragonCode\Support\Facades\Http\Builder;
-use DragonCode\Support\Http\Builder as HttpBuilder;
+use Mgandomi\LaravelHttpLogger\Casts\Hide;
+use Mgandomi\LaravelHttpLogger\Casts\HideHeader;
+use Mgandomi\LaravelHttpLogger\Casts\Method;
+use Mgandomi\LaravelHttpLogger\Concerns\HasTable;
+use Mgandomi\Support\Facades\Http\Builder;
+use Mgandomi\Support\Http\Builder as HttpBuilder;
 use Illuminate\Database\Eloquent\Model;
 
 class HttpLog extends Model

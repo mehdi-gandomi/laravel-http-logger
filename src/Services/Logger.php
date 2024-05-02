@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Services;
+namespace Mgandomi\LaravelHttpLogger\Services;
 
-use DragonCode\LaravelHttpLogger\Models\HttpLog;
-use DragonCode\Support\Facades\Helpers\Arr;
+use Mgandomi\LaravelHttpLogger\Models\HttpLog;
+use Mgandomi\Support\Facades\Helpers\Arr;
 use Illuminate\Http\Request;
 
 class Logger

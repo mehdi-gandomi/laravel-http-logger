@@ -1,5 +1,5 @@
 {
-    "name": "dragon-code/laravel-http-logger",
+    "name": "mgandomi/laravel-http-logger",
     "description": "Logging incoming HTTP requests",
     "license": "MIT",
     "type": "library",
@@ -11,23 +11,19 @@
         "logger",
         "logging",
         "requests",
-        "dragon-code",
-        "dragon",
-        "andrey-helldar"
+        "mgandomi",
+        "mehdi-gandomi"
     ],
-    "authors": [
-        {
-            "name": "Andrey Helldar",
-            "email": "helldar@dragon-code.pro",
-            "homepage": "https://dragon-code.pro"
-        }
-    ],
+    "authors": [{
+        "name": "Mehdi gandomi",
+        "email": "contact@mgandomi.ir",
+        "homepage": "https://mgandomi.ir"
+    }],
     "support": {
         "issues": "https://github.com/TheDragonCode/laravel-http-logger/issues",
         "source": "https://github.com/TheDragonCode/laravel-http-logger"
     },
-    "funding": [
-        {
+    "funding": [{
             "type": "boosty",
             "url": "https://boosty.to/dragon-code"
         },
@@ -59,7 +55,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "DragonCode\\LaravelHttpLogger\\": "src"
+            "Mgandomi\\LaravelHttpLogger\\": "src"
         }
     },
     "autoload-dev": {
@@ -80,8 +76,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DragonCode\\LaravelHttpLogger\\Providers\\ServiceProvider",
-                "DragonCode\\LaravelHttpLogger\\Providers\\RouteServiceProvider"
+                "Mgandomi\\LaravelHttpLogger\\Providers\\ServiceProvider",
+                "Mgandomi\\LaravelHttpLogger\\Providers\\RouteServiceProvider"
             ]
         }
     }

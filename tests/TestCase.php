@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use DragonCode\LaravelHttpLogger\Providers\RouteServiceProvider;
-use DragonCode\LaravelHttpLogger\Providers\ServiceProvider;
+use Mgandomi\LaravelHttpLogger\Providers\RouteServiceProvider;
+use Mgandomi\LaravelHttpLogger\Providers\ServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Routing\Router;
 use Orchestra\Testbench\TestCase as BaseTestCase;

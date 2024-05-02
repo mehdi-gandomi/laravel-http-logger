@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Casts;
+namespace Mgandomi\LaravelHttpLogger\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Http\Middleware;
+namespace Mgandomi\LaravelHttpLogger\Http\Middleware;
 
 use Closure;
-use DragonCode\LaravelHttpLogger\Services\Logger;
+use Mgandomi\LaravelHttpLogger\Services\Logger;
 use Illuminate\Http\Request;
 
 class HttpLogMiddleware

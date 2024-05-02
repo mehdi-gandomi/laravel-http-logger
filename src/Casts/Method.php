@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DragonCode\LaravelHttpLogger\Casts;
+namespace Mgandomi\LaravelHttpLogger\Casts;
 
-use DragonCode\Support\Facades\Helpers\Str;
+use Mgandomi\Support\Facades\Helpers\Str;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 
 class Method implements CastsAttributes
