@@ -10,8 +10,9 @@ use Illuminate\Http\Request;
 
 class Logger
 {
-    public static function save(Request $request): void
+    public static function save(Request $request,$response): void
     {
+        $response=is_string($response) ? $response:json_encode($response,JSON_UNESCAPED_UNICODE);
         self::store(
             $request->route()?->getName(),
             $request->getRealMethod(),
@@ -22,7 +23,8 @@ class Logger
             $request->query(),
             Arr::except($request->all(), array_keys($request->query())),
             $request->headers->all(),
-            $request?->getClientIp() ?: $request?->ip()
+            $request?->getClientIp() ?: $request?->ip(),
+            $response
         );
     }
 
@@ -36,7 +38,8 @@ class Logger
         array|string|null $query,
         array $payload,
         array $headers,
-        ?string $ip
+        ?string $ip,
+        ?string $response
     ): void {
         HttpLog::create(compact(
             'name',
@@ -48,7 +51,8 @@ class Logger
             'query',
             'payload',
             'headers',
-            'ip'
+            'ip',
+            'response'
         ));
     }
 }

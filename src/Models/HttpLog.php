@@ -25,6 +25,7 @@ class HttpLog extends Model
         'path',
         'query',
         'payload',
+        'response',
         'headers',
         'ip',
     ];

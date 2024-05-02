@@ -25,6 +25,7 @@ return new class extends Migration {
 
             $table->json('query');
             $table->json('payload');
+            $table->longText('response');
             $table->json('headers');
 
             $table->ipAddress('ip')->nullable();
