@@ -8,7 +8,7 @@ use Mgandomi\LaravelHttpLogger\Casts\Hide;
 use Mgandomi\LaravelHttpLogger\Casts\HideHeader;
 use Mgandomi\LaravelHttpLogger\Casts\Method;
 use Mgandomi\LaravelHttpLogger\Concerns\HasTable;
-use Mgandomi\Support\Facades\Http\Builder;
+use DragonCode\Support\Facades\Http\Builder;
 use Mgandomi\Support\Http\Builder as HttpBuilder;
 use Illuminate\Database\Eloquent\Model;
 
